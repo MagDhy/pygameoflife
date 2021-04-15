@@ -30,7 +30,8 @@ Using inside of code
 
 To import the class in to your own code::
 
-    from pygameoflife import LifeGame
+    from pygameoflife.LifeGame import LifeGame
+    LifeGame().run()
 
 Controls
 --------

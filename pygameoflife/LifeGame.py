@@ -2,8 +2,7 @@ import random
 import sys
 import pygame
 
-# TODO package as pip package
-# TODO push on github and pypi ?
+# (not pushed on pypi)
 
 
 class LifeGame:
@@ -227,11 +226,3 @@ class LifeGame:
         if time_to_sleep > 0:
             pygame.time.delay(int(time_to_sleep))
         self.last_update_cplt = now
-
-
-if __name__ == "__main__":
-    """
-    Launch a game of life
-    """
-    game = LifeGame()
-    game.run()
